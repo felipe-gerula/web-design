@@ -149,3 +149,7 @@ hr{
     padding: 90px 0 0 30px;
     color: white;
 }
+
+.novedades-banner p , .novedades-banner h2{
+    margin: 10px 0;
+}
