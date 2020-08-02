@@ -26,9 +26,6 @@
                    <a href="info.html">Quienes somos</a>
                </li>
                <li>
-                <a href="">Que hacemos</a>
-               </li>
-               <li>
                 <a href="productos.html">Productos</a>
                </li>
                <li>
@@ -36,14 +33,75 @@
                </li>
             </ul>
            <ul class="nav-main-right"><!--icono de la navegacion-->
-               <li>
-                   <a href="">
-                       <i class="fas fa-shopping-cart"></i>
-                   </a>
+                <li>
+                    <a href="">
+                        Regístrate
+                    </a>
+                </li>
+                <li>
+                    <a href="">
+                        Inicia Sesión
+                    </a>
+                </li> 
+                <li>
+                    <a href="">
+                        <i class="fas fa-shopping-cart"></i>
+                    </a>
                 </li>
            </ul> 
         </nav>
         <hr>
+       <div class="form-container">
+           <h1 class="titulo">Contáctanos</h1>
+           <div class="contact-plantilla">
+              <div class="contact-formulario">
+                <form action="">
+                    <p>
+                        <label>Nombre</label>
+                        <input type="text" name="name" required>
+                    </p>
+                    <p>
+                        <label>Apellido</label>
+                        <input type="text" name="lastname" required>
+                    </p>
+                    <p>
+                        <label>Email</label>
+                        <input type="email" name="email" required>
+                    </p>
+                    <p>
+                        <label>Telefono</label>
+                        <input type="tel" name="phone" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" required>
+                    </p>
+                    <p class="block">
+                        <label>Asunto</label>
+                        <input type="text" name="affeir">
+                    </p>
+                    <p class="block">
+                        <label>Mensaje</label>
+                        <textarea name="message" cols="10" rows="5"></textarea>
+                    </p>
+                    <p class = "block">
+                        <button type="submit" class ="btn">Enviar</button>
+                    </p>
+                </form>
+             </div>
+               <div class="contact-info">
+                    <h4>Más información</h4>
+                    <ul>
+                        <li>
+                            <i class="fas fa-map-marker-alt"></i>Mar del Plata,Argentina
+                        </li>
+                        <li>
+                            <i class="fas fa-phone"></i>223-633-2321
+                        </li>
+                        <li>
+                            <i class="fas fa-envelope"></i>3dwild@gmail.com
+                        </li>
+                    </ul>
+                    <p>Nos interesa saber tu opinion sobre la empresa y si tienes alguna duda sobre el producto no dudes en consultarnos</p>
+               </div>
+           </div>
+       </div>
     </div>
 
     <!-- PIE DE LA PAGINA -->
