@@ -76,6 +76,10 @@ ul{
     display: none;
 }
 
+.register{
+    display: flex;
+    padding-left: 400px;
+}
 /*SHOWCASE*/
 
 hr{
@@ -156,17 +160,21 @@ hr{
 .novedades-banner{
  width: 100%;
  height: 300px;
- background: irl();
- margin-bottom: 40px;
- margin: 20px;
- border: 5px solid black;
- border-radius: 5px;
+ background : url("imagenes/printer.jpg")no-repeat center center/cover;
+ padding: 50px;
+ display: flex;
+ flex-direction: column;
+ align-items: initial;
+ justify-content: flex-end;
+ margin-bottom: 6px;
+ border: 4px solid black;
+ border-radius: 20px;
 }
 
 .novedades-banner .contenido{
     width: 40%;
     padding: 90px 0 0 30px;
-    color: white;
+    color: black;
     margin-bottom: 30px;
 }
 
@@ -263,6 +271,10 @@ hr{
 
 /*SOCIAL*/
 
+.name-social{
+    color: orangered;
+}
+
 .social{
     margin: 50px;
 }
@@ -287,6 +299,13 @@ hr{
 
 .links a i{
     font-size: 3rem;
+}
+
+.fa-facebook-f{
+    color: blue;
+}
+.fa-twitter{
+    color: lightblue;
 }
 
 /* Pie de la pagina */
@@ -365,6 +384,24 @@ hr{
 
     .footer-links .footer-container{
         grid-template-columns: repeat(2,1fr);
+    }
+
+    .register{
+        display: grid;
+        padding-left: 0px;
+    }   
+    .novedades-banner{
+    width: 100%;
+    height: 400px;
+    padding: 50px;
+    display: flex;
+    background : url("imagenes/printer.jpg")no-repeat center center/cover;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 6px;
+    border: 4px solid black;
+    border-radius: 20px;
     }
 }
 
