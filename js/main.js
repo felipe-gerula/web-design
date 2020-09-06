@@ -7,3 +7,4 @@ ScrollReveal().reveal(".novedades", {delay : 500});
 ScrollReveal().reveal(".novedades-banner", {delay : 500});
 ScrollReveal().reveal(".social", {delay : 500});
 ScrollReveal().reveal(".form-container", {delay : 500});
+ScrollReveal().reveal(".form-login", {delay : 500});
